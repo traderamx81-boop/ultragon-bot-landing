@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ultragon — The bot that does anything</title>
+  <meta name="description" content="Ultragon — versatile Discord bot: automations, fun, moderation, integrations. Invite now!" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Ultragon — The bot that does anything">
+  <meta property="og:description" content="Ultragon — versatile Discord bot: automations, fun, moderation, integrations. Invite now!">
+  <meta property="og:image" content="https://raw.githubusercontent.com/traderamx81-boop/ultragon-bot-landing/main/logo.svg">
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">
+      <img src="logo.svg" alt="Ultragon logo" class="logo">
+      <span>Ultragon</span>
+    </div>
+    <div class="actions">
+      <a class="btn ghost" href="#features">Features</a>
+      <a class="btn" id="invite-btn" href="#" target="_blank">Invite</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <h1>Ultragon — The bot that does anything</h1>
+      <p class="tagline">From automations to chaos: moderation, games, webhooks, and limitless commands.</p>
+      <div class="cta-row">
+        <a class="btn primary" id="invite-cta" href="#">Invite Ultragon</a>
+        <a class="btn ghost" href="#features">See features</a>
+      </div>
+      <p class="micro">Built for Discord — fast, reliable, and delightfully unpredictable.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" class="section features">
+      <h2>What Ultragon can do</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Automations</h3>
+          <p>Scheduled tasks, server onboarding, role management, and custom triggers.</p>
+        </article>
+        <article class="card">
+          <h3>Moderation</h3>
+          <p>Fast moderation tools: mute, ban, slowmode, automod with customizable rules.</p>
+        </article>
+        <article class="card">
+          <h3>Fun & Games</h3>
+          <p>Mini-games, economy, music controls, and social leaderboards.</p>
+        </article>
+        <article class="card">
+          <h3>Integrations</h3>
+          <p>Webhooks, external APIs, role sync, and custom command webhooks.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section commands">
+      <h2>Sample Commands</h2>
+      <ul class="cmd-list">
+        <li><strong>/invite</strong> — Get the invite link for Ultragon</li>
+        <li><strong>/setup</strong> — Guided server setup</li>
+        <li><strong>/remind</strong> — Set reminders and automations</li>
+        <li><strong>/8ball</strong> — Ask Ultragon anything</li>
+      </ul>
+    </section>
+
+    <section class="section footer-cta">
+      <h2>Ready to add Ultragon?</h2>
+      <a class="btn primary lg" id="invite-bottom" href="#">Invite Ultragon</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made with ✨ — Ultragon • <a href="https://github.com/traderamx81-boop/ultragon-bot-landing" target="_blank">Source</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/three@0.156.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.156.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://unpkg.com/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
